@@ -1,0 +1,90 @@
+Hostname en ibsen: 
+
+ibsen
+
+Hostname en my-python.sif: 
+
+ibsen
+
+cat /etc/os-release en ibsen: 
+
+NAME="CentOS Linux"
+VERSION="8 (Core)"
+ID="centos"
+ID_LIKE="rhel fedora"
+VERSION_ID="8"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="CentOS Linux 8 (Core)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:centos:centos:8"
+HOME_URL="https://www.centos.org/"
+BUG_REPORT_URL="https://bugs.centos.org/"
+
+CENTOS_MANTISBT_PROJECT="CentOS-8"
+CENTOS_MANTISBT_PROJECT_VERSION="8"
+REDHAT_SUPPORT_PRODUCT="centos"
+REDHAT_SUPPORT_PRODUCT_VERSION="8"
+
+cat /etc/os-release en my-python.sif: 
+
+PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"
+NAME="Debian GNU/Linux"
+VERSION_ID="11"
+VERSION="11 (bullseye)"
+VERSION_CODENAME=bullseye
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+
+ls-l en ibsen: 
+
+total 16
+drwxrwxr-x. 3 alumno34 alumno34  18 dic 27 16:16 lab7-singularity
+-rwxrwxr-x. 1 alumno34 alumno34 970 dic 27 17:34 manejando_singularity.sh
+-rw-rw-r--. 1 alumno34 alumno34  82 dic 27 17:01 manejando_singularity.sh.save
+-rw-rw-r--. 1 alumno34 alumno34 841 dic 27 17:36 output_manejando_singularity.txt
+-rw-rw-r--. 1 alumno34 alumno34 132 dic 27 16:03 README.md
+drwxrwxr-x. 2 alumno34 alumno34  27 dic 27 16:34 singularity
+drwxrwxr-x. 2 alumno34 alumno34  80 dic 27 17:06 source
+ls -l en my-python.sif: 
+
+total 16
+-rw-rw-r--. 1 alumno34 alumno34  132 Dec 27 16:03 README.md
+drwxrwxr-x. 3 alumno34 alumno34   18 Dec 27 16:16 lab7-singularity
+-rwxrwxr-x. 1 alumno34 alumno34  970 Dec 27 17:34 manejando_singularity.sh
+-rw-rw-r--. 1 alumno34 alumno34   82 Dec 27 17:01 manejando_singularity.sh.save
+-rw-rw-r--. 1 alumno34 alumno34 1353 Dec 27 17:36 output_manejando_singularity.txt
+drwxrwxr-x. 2 alumno34 alumno34   27 Dec 27 16:34 singularity
+drwxrwxr-x. 2 alumno34 alumno34   80 Dec 27 17:06 source
+
+pwd en ibsen: 
+
+/home/alumno34/lab7-singularity
+pwd en my-python.sif: 
+
+/home/alumno34/lab7-singularity
+
+Versión de Python en ibsen: 
+
+Python 3.8.5
+Versión de Python en my-python.sif: 
+
+Python 3.7.16
+Ejecutando el notebook kmer-solution.ipynb desde ibsen
+
+[22;0t]0;IPython: alumno34/lab7-singularityStart
+Number of generated k-mers: 67108864
+
+190 ms ± 713 µs per loop (mean ± std. dev. of 2 runs, 10 loops each)
+
+Finish!
+
+Ejecutando el notebook kmer-solution.ipynb desde my-python.sif
+
+[22;0t]0;IPython: alumno34/lab7-singularityStart
+Number of generated k-mers: 268435456
+
+772 ms ± 3.86 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+Finish!
